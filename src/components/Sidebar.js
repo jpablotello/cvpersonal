@@ -41,7 +41,7 @@ export const Sidebar = () => {
                                     onChange={handleChangeLang}
                                     inputProps={{ 'aria-label': 'checkbox with default color' }}
                                 />}
-                            label={lang === 'es' ? 'Español' : 'English'}
+                            label={lang === 'es' ? 'Español 1' : 'English 1'}
                             labelPlacement="top"
                         />
                     </div>
