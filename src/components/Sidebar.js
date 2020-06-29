@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export const Sidebar = () => {
     return (
@@ -23,12 +24,24 @@ export const Sidebar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav">
-                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                        <li className="nav-item">
+                            <NavLink to="/about" className="nav-link js-scroll-trigger" activeClassName="active">About</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/experience" className="nav-link js-scroll-trigger" activeClassName="active">Experience</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/education" className="nav-link js-scroll-trigger" activeClassName="active">Education</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/skills" className="nav-link js-scroll-trigger" activeClassName="active">Skills</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/interests" className="nav-link js-scroll-trigger" activeClassName="active">Interests</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/awards" className="nav-link js-scroll-trigger" activeClassName="active">Awards</NavLink>
+                        </li>
                     </ul>
                 </div>
             </nav>
