@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext} from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { getAbout } from '../services/cvService';
-import userImg from '../assets/img/yo.jpg';
+import userImg from '../assets/img/yo.JPG';
 import Switch from '@material-ui/core/Switch';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import { UserContext } from '../context/UserContext';
