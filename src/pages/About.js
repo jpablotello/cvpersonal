@@ -16,7 +16,6 @@ export const About = () => {
     const {
         name,
         lastName,
-        age,
         birthday,
         address,
         city,
