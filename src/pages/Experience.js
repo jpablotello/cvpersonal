@@ -3,7 +3,9 @@ import { getExperience } from '../services/cvService';
 
 export const Experience = () => {
 
-    const data = getExperience();
+    const lang = 'es';
+
+    const data = getExperience(lang);
     return (
         <div>
             <section className="resume-section" id="experience">
