@@ -1,6 +1,9 @@
-import React from 'react'
+import React from 'react';
+import { getExperience } from '../services/cvService';
 
 export const Experience = () => {
+
+    const data = getExperience();
     return (
         <div>
             <section className="resume-section" id="experience">
