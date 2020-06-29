@@ -49,7 +49,7 @@ export const Sidebar = () => {
 
                     <span className="d-block d-lg-none">{about.name + ' ' + about.lastName}</span>
                     <span className="d-none d-lg-block">
-                        <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://lh3.googleusercontent.com/s1D88L1KBMIHq_PB-PruWU8kyYA9KuOVE6Cra1HVicw-x8Fde18p8DYlxpLhYoPGQrORWyGqwurm6wzM79hHRw9yzEM7o67a1O7v3fVPkUkzxuGHgM49_kqrAc6pXYsXgitiQTx60cBUGKUHoOg-RYWIsoAW9dTs9jHqCYEmFnDs8Ff_mesrd5Hk0bgcxvNlbDx496BZNbOeMTLjbSEayq_m4svXTheA8NrCqMKOMitub5YbpSyAK52DrkfusqAgt-H4yF8TZtVMVp9DWCBYOHk4Njb7PuYGMpiFJqs61JUAXfyhfWvbcjPbU8ldGUQJt1ykBpn1jAeoRt_Z7bbF26tgkGwO_utL0oi8ulYcnh9vpd7t27RVGFkLcyzL9ziHbFSViKybiApkg-lCGmzfayWOdGLaMmhF5BIj3O6u7WE4BCz_Plk6TtUNOS-oKpSiq8n6eSE1vxKle5nzkGxWxp_P0MRNMOVgVM5HzJ_XCX79-xEe3UtT_fKg3zrSB3J9fgZEK0uNB0nv7X47MubngYr1M9gupapUHU0_jv3g73N4alFq4gOb3jw2WXlmn6sCNDNeRRtsf8EuNpmh1tuu203mJqzp4NQmFQT8jpstGRa-4YckPZ9S1z22jb6Y_uoGLjA6IkSz6C6T_d7Ai9Vr7wJPiSpTgEgeVliYQieo5fWJZJxbpAEyOoeEioif5Ug=w800-h868-no?authuser=0" alt="Juan Pablo Tello" />
+                        <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={process.env.PUBLIC_URL + '/img/yo.JPG'} alt="Juan Pablo Tello" />
                     </span>
                 </Link>
                 <button 

@@ -24,7 +24,7 @@ export const getAbout = (lang) => {
         city: 'Merlo',
         zipCode: '1722',
         cell: '011 15 32305442',
-        email: 'tello.jpablo@gamil.com',
+        email: 'tello.jpablo@gmail.com',
     };
     return data;
 };
@@ -105,8 +105,8 @@ export const getExperience = (lang) => {
             title: '.NET Fullstack Web Developer',
             company: 'Huenei S.A.',
             description: lang === 'es'
-            ? `Desarrollo de soluciones y mejoras a varios proyectos, usando diversas tecnologías, como ser : C#.Net, Asp.net, Asp.net MVC, Sql Server, Angular y Amgular js`
-            : `Development of solutions and improvements to various projects, using various technologies, such as: C # .Net, Asp.net, Asp.net MVC, Sql Server, Angular and Amgular js`,
+            ? `Desarrollo de soluciones y mejoras a varios proyectos, usando diversas tecnologías, como ser : C#.Net, Asp.net, Asp.net MVC, Sql Server, Angular y Angular js`
+            : `Development of solutions and improvements to various projects, using various technologies, such as: C # .Net, Asp.net, Asp.net MVC, Sql Server, Angular and Angular js`,
             since: '03/2019',
             to: '01/2020',
         },
