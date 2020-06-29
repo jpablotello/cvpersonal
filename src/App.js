@@ -14,7 +14,7 @@ function App() {
     <div className='App'>
       <Router>
         <Sidebar />
-        <div class="container-fluid p-0">
+        <div className="container-fluid p-0">
         <Switch>
             <Route exact path="/about" component={About} />
             <Route exact path="/education" component={Education} />

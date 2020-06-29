@@ -1,6 +1,15 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react';
+import { getSkills } from '../services/cvService';
 
 export const Skills = () => {
+    const lang = 'es';
+
+    const [skills, setSkills] = useState([])
+
+    useEffect(() => {
+        setSkills(getSkills(lang))
+    }, [])
+
     return (
         <div>
             <section className="resume-section" id="skills">
@@ -23,18 +32,13 @@ export const Skills = () => {
                     </ul>
                     <div className="subheading mb-3">Workflow</div>
                     <ul className="fa-ul mb-0">
-                        <li>
-                            <span className="fa-li"><i className="fas fa-check"></i></span>Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-check"></i></span>Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-check"></i></span>Cross Functional Teams
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-check"></i></span>Agile Development & Scrum
-                        </li>
+                    {
+                        skills && skills.map( skill => {
+                            return (<li key={skill.id}>
+                                <span className="fa-li"><i className="fas fa-check"></i></span>{skill.description}
+                            </li>)
+                        })
+                    }
                     </ul>
                 </div>
             </section>

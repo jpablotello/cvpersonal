@@ -32,7 +32,7 @@ export const About = () => {
                         <a className="social-icon" href={linkedin}><i className="fab fa-linkedin-in"></i></a>
                         <a className="social-icon" href={github}><i className="fab fa-github"></i></a>
                         <a className="social-icon" href={twitter}><i className="fab fa-twitter"></i></a>
-                        <a class="social-icon" href={facebook}><i className="fab fa-facebook-f"></i></a>
+                        <a className="social-icon" href={facebook}><i className="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
             </section>
