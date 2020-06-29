@@ -1,6 +1,6 @@
 export const getAbout = (lang) => {
     let data;
-    if (lang == 'es') {
+    if (lang === 'es') {
         data = {
             aboutMe: `Tengo experiencia en aprovechar marcos ágiles para proporcionar focalización de problemas y proponer soluciones vistas generales de alto nivel. Los enfoques iterativos de la estrategia corporativa fomentan el pensamiento colaborativo para promover la propuesta de valor general.`,
         };

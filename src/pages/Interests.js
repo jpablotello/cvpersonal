@@ -1,15 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import {getInterest} from '../services/cvService';
+import { UserContext } from '../context/UserContext';
 
 export const Interests = () => {
-
-    const lang = 'es';
+    
+    const { lang } = useContext(UserContext);
 
     const [interests, setInterests] = useState([])
 
     useEffect(() => {
         setInterests(getInterest(lang))
-    }, [])
+    }, [lang])
 
 
     return (

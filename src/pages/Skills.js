@@ -1,14 +1,16 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useContext, useEffect} from 'react';
 import { getSkills } from '../services/cvService';
+import { UserContext } from '../context/UserContext';
 
 export const Skills = () => {
-    const lang = 'es';
+
+    const { lang } = useContext(UserContext);
 
     const [skills, setSkills] = useState([])
 
     useEffect(() => {
         setSkills(getSkills(lang))
-    }, [])
+    }, [lang])
 
     return (
         <div>

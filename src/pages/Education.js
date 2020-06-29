@@ -1,15 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { getEducation } from '../services/cvService';
+import { UserContext } from '../context/UserContext';
 
 export const Education = () => {
 
-    const lang = 'es';
+    const { lang } = useContext(UserContext);
 
     const [education, setEducation] = useState([]);
 
     useEffect(() => {
         setEducation(getEducation(lang));
-    }, []);
+    }, [lang]);
 
     return (
         <div>
