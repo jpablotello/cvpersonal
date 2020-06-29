@@ -1,3 +1,6 @@
+import { img } from './image';
+
+
 export const getAbout = (lang) => {
     let data;
     if (lang === 'es') {
@@ -25,6 +28,7 @@ export const getAbout = (lang) => {
         zipCode: '1722',
         cell: '011 15 32305442',
         email: 'tello.jpablo@gmail.com',
+        image: img
     };
     return data;
 };

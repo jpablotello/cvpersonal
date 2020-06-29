@@ -49,7 +49,13 @@ export const Sidebar = () => {
 
                     <span className="d-block d-lg-none">{about.name + ' ' + about.lastName}</span>
                     <span className="d-none d-lg-block">
-                        <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={process.env.PUBLIC_URL + '/img/yo.JPG'} alt="Juan Pablo Tello" />
+                        <img 
+                            className="img-fluid img-profile rounded-circle mx-auto mb-2" 
+                            src={"data:image/jpeg;base64,"+ about.image}
+                            // src={process.env.PUBLIC_URL + '/img/yo.JPG'} 
+                            alt="Juan Pablo Tello" 
+                        />
+
                     </span>
                 </Link>
                 <button 
