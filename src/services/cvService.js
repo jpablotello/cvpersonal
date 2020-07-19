@@ -42,7 +42,7 @@ export const getEducation = (lang) => {
             title: 'Tecnicatura Superior en Análisis de Sistemas',
             since: '2020',
             to: lang === 'es' ? 'Presente' : 'Present',
-            status: lang === 'es' ? 'Completo' : 'Complete'
+            status: lang === 'es' ? 'Cursando' : 'Incomplete'
         },
         {
             id: 4,

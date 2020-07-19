@@ -25,7 +25,7 @@ export const Education = () => {
                                         <div className="flex-grow-1">
                                             <h3 className="mb-0">{educ.instute}</h3>
                                             <div className="subheading mb-3">{educ.title}</div>
-                                            <p>{lang === 'es' ? 'Estado : ' : 'State :' }{educ.status}</p>
+                                            <p>{lang === 'es' ? 'Estado : ' : 'State : ' }{educ.status}</p>
                                         </div>
                                         <div className="flex-shrink-0"><span className="text-primary">{educ.since} - {educ.to}</span></div>
                                     </div>
