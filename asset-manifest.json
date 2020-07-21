@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cvpersonal/static/css/main.2e064222.chunk.css",
+    "main.js": "/cvpersonal/static/js/main.0aadfbe9.chunk.js",
+    "main.js.map": "/cvpersonal/static/js/main.0aadfbe9.chunk.js.map",
+    "runtime-main.js": "/cvpersonal/static/js/runtime-main.d38d2411.js",
+    "runtime-main.js.map": "/cvpersonal/static/js/runtime-main.d38d2411.js.map",
+    "static/js/2.de1c76de.chunk.js": "/cvpersonal/static/js/2.de1c76de.chunk.js",
+    "static/js/2.de1c76de.chunk.js.map": "/cvpersonal/static/js/2.de1c76de.chunk.js.map",
+    "index.html": "/cvpersonal/index.html",
+    "precache-manifest.e6fb7522599885f2f3da08c785cba559.js": "/cvpersonal/precache-manifest.e6fb7522599885f2f3da08c785cba559.js",
+    "service-worker.js": "/cvpersonal/service-worker.js",
+    "static/css/main.2e064222.chunk.css.map": "/cvpersonal/static/css/main.2e064222.chunk.css.map",
+    "static/js/2.de1c76de.chunk.js.LICENSE.txt": "/cvpersonal/static/js/2.de1c76de.chunk.js.LICENSE.txt",
+    "static/media/yo.JPG": "/cvpersonal/static/media/yo.7dfbff8b.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d38d2411.js",
+    "static/js/2.de1c76de.chunk.js",
+    "static/css/main.2e064222.chunk.css",
+    "static/js/main.0aadfbe9.chunk.js"
+  ]
+}
